@@ -15,8 +15,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [1] = LAYOUT(
         KC_NO,        KC_ESC,      KC_NO,       KC_END,      KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_BSPC,     KC_NO,       KC_NO,       KC_NO,
         KC_NO,        KC_HOME,     KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_LEFT,     KC_DOWN,     KC_UP,       KC_RGHT,     KC_NO,       KC_NO,       KC_NO,
-        KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_DEL,      KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
-        KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_ENT,      KC_ENT,      KC_ENT,      KC_ENT,      KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO
+        KC_TRNS,      KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_DEL,      KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
+        KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_ENT,      KC_NO,       KC_NO,       KC_NO,       KC_NO
     ),
     [2] = LAYOUT(
         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [3] = LAYOUT(
         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
         KC_NO,        JP_EXLM,     JP_DQUO,     JP_HASH,     JP_DLR,      JP_PERC,     JP_AMPR,     JP_QUOT,     JP_LPRN,     JP_RPRN,     JP_MINS,     JP_CIRC,     JP_YEN,
-        KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
+        KC_TRNS,      KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,
         KC_NO,        KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO,       KC_NO
     ),
     [4] = LAYOUT(
